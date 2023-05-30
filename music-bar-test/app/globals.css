@@ -25,3 +25,59 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.music {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 300px;
+  height: 200px;
+}
+
+.music .bar {
+  width: 12px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.music .bar:nth-child(1) {
+  background-color: purple;
+}
+
+.music .bar:nth-child(2) {
+  background-color: crimson;
+}
+
+.music .bar:nth-child(3) {
+  background-color: deeppink;
+}
+
+.music .bar:nth-child(4) {
+  background-color: orange;
+}
+
+.music .bar:nth-child(5) {
+  background-color: gold;
+}
+
+.music .bar:nth-child(6) {
+  background-color: gold;
+}
+
+.music .bar:nth-child(7) {
+  background-color: orange;
+}
+
+.music .bar:nth-child(8) {
+  background-color: deeppink;
+}
+
+.music .bar:nth-child(9) {
+  background-color: crimson;
+}
+
+.music .bar:nth-child(10) {
+  background-color: purple;
+}
